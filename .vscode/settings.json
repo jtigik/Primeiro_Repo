@@ -1,3 +1,5 @@
 {
-    "emmet.showSuggestionsAsSnippets": true
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.includeLanguages": {
+        "javascript": "html"}
 }
