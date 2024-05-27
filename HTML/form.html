@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Formulário</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Formulário</h1>
+            <nav>
+                <hr>
+                <a href="index.html">Home</a>
+                <hr>
+            </nav>
+        </header>
+        <main>
+            <form>
+                <hr/>
+                <label>Nome:</label>
+                <input type="text"/><br/>
+                <label>E-mail:</label>
+                <input type="email"/><br/>
+                <label>Telefone:</label>
+                <input type="tel" placeholder="Seu nº telefone"/><br/>
+                <label>Convidados:</label>
+                <input type="number" max="100" min="1" step="5"/><br/>
+                <label>Envie a sua lista:</label>
+                <input type="file"/><br/>
+                <input type="color">
+                <hr/>
+                <p>
+                    Qual linguagem você domina?
+                </p>
+                <select multiple>   
+                    <option>Python</option>
+                    <option>Java</option>
+                    <option>JavaScript</option>
+                    <option>PHP</option>
+                    <option>Lua</option>
+                    <option>C/C++</option>
+                    <option>Assembly</option>
+                    <option>Pascal</option>
+                    <option>Swift</option>
+                    <option>TypeScript</option>
+                </select>
+                <hr/>
+                <p>
+                    Qual posição você está procurando?
+                </p>
+                <input type="radio" checked name="vaga"/><label>Mestre</label>
+                <input type="radio" name="vaga"/><label>Estagiário</label>
+                <input type="radio" name="vaga"/><label>Júnior</label>
+                <input type="radio" name="vaga"/><label>Pleno</label>
+                <input type="radio" name="vaga"/><label>Sênior</label>
+                <input type="radio" name="vaga"/><label>Lendário</label>
+            </form>
+        </main>
+        <footer>
+            &copy; 2024 - Todos direitos reservados.
+        </footer>
+    </body>
+</html>
